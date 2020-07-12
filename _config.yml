@@ -5,5 +5,4 @@ exclude: [gems]
 sass:
     load_paths:
         - _sass
-        - MOJN
-        - assets/css
+        - node_modules
