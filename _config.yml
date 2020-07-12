@@ -6,3 +6,4 @@ sass:
     load_paths:
         - _sass
         - MOJN
+        - assets/css
