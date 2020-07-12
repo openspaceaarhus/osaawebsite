@@ -1,20 +1,13 @@
 After downloading the code from github, set up the local environment.
 
-    $ bundle config set deployment true
-
-and/or
-
-    $ bundle config set path 'vendor/bundle'
-
-If deployment is true, and no path is set, it will use 'vendor/bundle',
-so here it is superfluous. If you prefer a different path, then use this
-command to set it.
+    $ bundle config --local deployment true
+    $ bundle config --local path 'vendor/bundle'
 
 Now simply run:
 
 $ bundle
 
-this will install all gems in the folder osaawebsite/vendor/bundle. 
+this will install all gems in the folder osaawebsite/vendor/bundle.
 
 ------------------------------------------
 
