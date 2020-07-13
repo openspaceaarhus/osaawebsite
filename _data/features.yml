@@ -12,10 +12,10 @@
   img: welder.png
 - name: Træværksted
   url: /traevaerksted/
-  img: table_saw.png
+  img: table_saw2.png
 - name: Elektronikværksted
   url: /elektronikvaerksted/
-  img: oscilloscope.png
+  img: oscilloscope2.png
 - name: Kreaværksted
   url: /kreavaerksted/
   img: krea.png

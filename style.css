@@ -3,11 +3,11 @@
  */
 
 /* Links */
-a,
+/* a,
 a:focus,
 a:hover {
   color: #fff;
-}
+} */
 
 /* Custom default button */
 .btn-secondary,
@@ -182,4 +182,8 @@ li {
 
 .masthead-brand {
   font-family: Bender;
+}
+
+.masthead a {
+  color: black;
 }
