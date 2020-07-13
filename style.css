@@ -61,8 +61,9 @@ p {
 
 .nav-masthead .nav-link {
   padding: .25rem 0;
-  font-weight: 700;
-  color: rgba(255, 255, 255, .5);
+  font-weight: 500;
+  color: rgba(0, 0, 0, 1.0);
+  font-family: Bender;
   background-color: transparent;
   border-bottom: .25rem solid transparent;
 }
@@ -173,4 +174,12 @@ li {
 
 .specs_table td, .specs_table td {
   border: 1px black solid;
+}
+
+.osaa_logo {
+  xheight: 40px;
+}
+
+.masthead-brand {
+  font-family: Bender;
 }
