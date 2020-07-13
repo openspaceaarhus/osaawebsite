@@ -5,103 +5,35 @@ title: Front page
 <div class='container'>
 
 
-  <div class='row'>
+{% for feature in site.data.features %}
+  {% assign loopindex = forloop.index | modulo: 3 %}
+  {% if loopindex == 1 %}
+    <div class='row'>
+  {% endif %}
 
-    <div class='col-4 feature_col'>
+    <a class='col-4 feature_col' href='{{feature.url}}'>
       <div class=feature>
-        <div class='feature_heading'>Lasercutter</div>
-        <div class='feature_illustration'><img class='feature_img' src='images/lasercutter.png'></div>
+        <div class='feature_heading'>{{feature.name}}</div>
+        <div class='feature_illustration'><img class='feature_img' src='images/features/{{feature.img}}'></div>
         <div class='feature_description'>
         </div>
       </div>
-    </div> <!-- end col -->
+    </a> <!-- end col -->
 
-    <div class='col-4 feature_col'>
-      <div class=feature>
-        <div class='feature_heading'>3D printer</div>
-        <div class='feature_illustration'><img class='feature_img' src='images/3d_printer.png'></div>
-        <div class='feature_description'>
-        </div>
-      </div>
-    </div> <!-- end col -->
-
-    <div class='col-4 feature_col'>
-      <div class=feature>
-        <div class='feature_heading'>CNC</div>
-        <div class='feature_illustration'><img class='feature_img' src='images/cnc.png'></div>
-        <div class='feature_description'>
-        </div>
-      </div>
-    </div>  <!-- end col -->
-
-  </div> <!-- end row -->
+  {% if loopindex == 0 %}
+    </div> <!-- end row -->
+  {% endif %}
+{% endfor %}
 
 
 
-  <div class='row'>
 
-    <div class='col-4 feature_col'>
-      <div class=feature>
-        <div class='feature_heading'>Træværksted</div>
-        <div class='feature_illustration'><img class='feature_img' src='images/table_saw.png'></div>
-        <div class='feature_description'>
-        </div>
-      </div>
-    </div> <!-- end col -->
-
-    <div class='col-4 feature_col'>
-      <div class=feature>
-        <div class='feature_heading'>Metalværksted</div>
-        <div class='feature_illustration'><img class='feature_img' src='images/welder.png'></div>
-        <div class='feature_description'>
-        </div>
-      </div>
-    </div> <!-- end col -->
-
-    <div class='col-4 feature_col'>
-      <div class=feature>
-        <div class='feature_heading'>Elektronikværksted</div>
-        <div class='feature_illustration'><img class='feature_img' src='images/oscilloscope.png'></div>
-        <div class='feature_description'>
-        </div>
-      </div>
-    </div> <!-- end col -->
 
   </div> <!-- end row -->
 
 
 
 
-  <div class='row'>
-
-    <div class='col-4 feature_col'>
-      <div class=feature>
-        <div class='feature_heading'>Kreaværksted</div>
-        <div class='feature_illustration'><img class='feature_img' src='images/krea.png'></div>
-        <div class='feature_description'>
-        </div>
-      </div>
-    </div> <!-- end col -->
-
-    <div class='col-4 feature_col'>
-      <div class=feature>
-        <div class='feature_heading'>Cykelværksted</div>
-        <div class='feature_illustration'><img class='feature_img' src='images/cykel.png'></div>
-        <div class='feature_description'>
-        </div>
-      </div>
-    </div> <!-- end col -->
-
-    <div class='col-4 feature_col'>
-      <div class=feature>
-        <div class='feature_heading'>Fællesskab</div>
-        <div class='feature_illustration'><img class='feature_img' src='images/faellesskab.png'></div>
-        <div class='feature_description'>
-        </div>
-      </div>
-    </div> <!-- end col -->
-
-  </div> <!-- end row -->
 
 
 

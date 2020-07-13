@@ -117,9 +117,15 @@ body {
 }
 
 .feature {
-  border: 0px black solid;
+  border: 3px transparent solid;
   border-radius: 6px 15px;
   margin: 0px;
+  transition: 0.4s;
+}
+
+.feature:hover {
+  border: 3px black solid;
+  transition: 0.4s;
 }
 
 
@@ -127,6 +133,7 @@ body {
   font-family: Bender;
   font-weight: bold;
   font-size: 16pt;
+  color: black;
 }
 
 .feature_img {

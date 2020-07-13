@@ -1,0 +1,27 @@
+- name: Lasercutter
+  url: /lasercutter/
+  img: lasercutter.png
+- name: 3D printer
+  url: /3d_printer/
+  img: 3d_printer.png
+- name: CNC
+  url: /cnc/
+  img: cnc.png
+- name: Metalværksted
+  url: /metalvaerksted/
+  img: welder.png
+- name: Træværksted
+  url: /traevaerksted/
+  img: table_saw.png
+- name: Elektronikværksted
+  url: /elektronikvaerksted/
+  img: oscilloscope.png
+- name: Kreaværksted
+  url: /kreavaerksted/
+  img: krea.png
+- name: Cykelvaerksted
+  url: /cykelvaerksted/
+  img: cykel.png
+- name: Fællesskab
+  url: /faellesskab/
+  img: faellesskab.png
