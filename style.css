@@ -38,6 +38,11 @@ body {
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
 }
 
+p {
+  text-align: left;
+}
+
+
 .cover-container {
   max-width: 42em;
 }
@@ -159,4 +164,13 @@ h1 {
 
 li {
   text-align: left;
+}
+
+.specs_table td {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.specs_table td, .specs_table td {
+  border: 1px black solid;
 }
