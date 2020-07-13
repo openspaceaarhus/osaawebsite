@@ -9,7 +9,7 @@
   img: cnc.png
 - name: Metalværksted
   url: /metalvaerksted/
-  img: welder.png
+  img: welder2.png
 - name: Træværksted
   url: /traevaerksted/
   img: table_saw2.png
@@ -18,10 +18,10 @@
   img: oscilloscope2.png
 - name: Kreaværksted
   url: /kreavaerksted/
-  img: krea.png
-- name: Cykelvaerksted
+  img: symaskine.png
+- name: Cykelværksted
   url: /cykelvaerksted/
-  img: cykel.png
+  img: cykel2.png
 - name: Fællesskab
   url: /faellesskab/
-  img: faellesskab.png
+  img: barbecue.png
