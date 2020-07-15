@@ -154,13 +154,13 @@ h1 {
 
 @font-face {
     font-family: Bender;
-    src: url("../fonts/Bender/Jovanny Lemonad - Bender.otf") format("opentype");
+    src: url("Bender/Jovanny Lemonad - Bender.otf") format("opentype");
 }
 
 @font-face {
     font-family: Bender;
     font-weight: bold;
-    src: url("../fonts/Bender/Jovanny Lemonad - Bender-Bold.otf") format("opentype");
+    src: url("Bender/Jovanny Lemonad - Bender-Bold.otf") format("opentype");
 }
 
 li {

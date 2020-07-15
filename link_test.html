@@ -1,0 +1,10 @@
+---
+layout: default
+title: Link Test
+---
+{% for node in site.data.navbar %}
+  <p>
+    {{node.url}}
+    {% link images/features/table_saw.png %}
+  </p>
+{% endfor %}

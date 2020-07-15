@@ -1,9 +1,12 @@
 #_data/navbar.yml
 - title: Home
-  url: /
-- title: About
-  url: /about.html
-- title: Contact
-  url: /contact.html
+  url: index.html
+- title: Om OSAA
+  url: om_osaa.html
+- title: Galleri
+  url: galleri.html
 - title: Links
-  url: /links.html
+  url: links.html
+#Følgende dur ikke (hvis man bruger links-tag):
+# - '/index.html'
+# - '/'
