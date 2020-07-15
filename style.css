@@ -199,3 +199,17 @@ li {
   margin-top: 30px;
   margin-bottom: 50px;
 }
+
+
+a {
+  text-shadow: 0 .02rem .02rem rgba(0, 0, 0, .5);
+}
+
+.links_table td {
+  text-align: left;
+  vertical-align: top;
+  padding: 12px;
+}
+.links_table td:first-child a {
+  white-space: nowrap;
+}
