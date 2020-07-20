@@ -10,12 +10,15 @@
 - name: Metalværksted
   url: metalvaerksted.html
   img: welder2.png
+  resize: 85%;
 - name: Træværksted
   url: traevaerksted.html
   img: table_saw2.png
+  resize: 85%;
 - name: Elektronikværksted
   url: elektronikvaerksted.html
   img: oscilloscope2.png
+  resize: 85%;
 - name: Kreaværksted
   url: kreavaerksted.html
   img: symaskine.png

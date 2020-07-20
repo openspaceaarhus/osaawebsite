@@ -2,5 +2,20 @@
 layout: default
 title: Dummy
 ---
+<div class='container'>
+{% for i in (1..5) %}
+  {% assign loopindex = forloop.index | modulo: 2 %}
+  {% if loopindex == 1 %}
+    <div class='row'>
+  {% endif %}
+    <div class='col-6'>
+      <img class='gallery_img' src="assets/images/galleri/{{ i }}.jpg" alt="image" />
+    </div>
 
-Dummy. Endnu ikke implementeret. 
+  {% if loopindex == 0 %}
+    </div> <!-- end row -->
+  {% endif %}
+
+{% endfor %}
+
+</div>

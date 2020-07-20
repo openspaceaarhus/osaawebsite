@@ -1,12 +1,18 @@
 ---
-layout: default
+layout: default2
 title: Front page
 ---
 
-<div class='catchphrase'> Er du kreativ, men mangler værkstedet? </div>
+<div class='container' style='background-color: red;'>
+  <div class='row' style='background-color: green;'>
+    <div class='col col-md-12 catchphrase' style='background-color: #00a;'>
+      Er du kreativ, men mangler værkstedet?
+    </div>
+  </div>
+</div>
 
 
-<div class='container'>
+<div class='container' style='background-color: red;'>
 
 
 {% for feature in site.data.features %}
@@ -15,10 +21,18 @@ title: Front page
     <div class='row'>
   {% endif %}
 
-    <a class='col-4 feature_col' href='{{feature.url}}'>
+    <a class='col col-md-4 feature_col' href='{{feature.url}}'>
       <div class=feature>
         <div class='feature_heading'>{{feature.name}}</div>
-        <div class='feature_illustration'><img class='feature_img' src='images/features/{{feature.img}}'></div>
+        {% if feature.resize %}
+          <div class='feature_illustration'>
+            <img class='feature_img' src='images/features/{{feature.img}}' style='max-width: {{feature.resize}}; max-height: {{feature.resize}};'>
+          </div>
+        {% else  %}
+          <div class='feature_illustration'>
+            <img class='feature_img' src='images/features/{{feature.img}}'>
+          </div>
+        {% endif  %}
         <div class='feature_description'>
         </div>
       </div>
