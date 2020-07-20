@@ -248,3 +248,11 @@ h3, h5 {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+.navbar-brand {
+  font-family: Bender;
+}
+
+.nav-link {
+  font-family: Bender;
+}
