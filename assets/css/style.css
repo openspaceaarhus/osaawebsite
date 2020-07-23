@@ -139,17 +139,17 @@ p {
   transition: 0.4s;
 }
 
-
 .feature_heading {
   font-family: Bender;
   font-weight: bold;
-  font-size: 16pt;
+  font-size: 8pt;
   color: black;
 }
 
 .feature_illustration {
   height: 100px;
-  width: 140px;
+  /* width: 140px; */
+  max-width:100%;
   margin: auto;
   margin-bottom: 7px;
   display: block;
@@ -255,4 +255,8 @@ h3, h5 {
 
 .nav-link {
   font-family: Bender;
+}
+
+@media (min-width: 768px) {
+  .feature_heading {font-size:16pt;} /*1rem = 16px*/
 }

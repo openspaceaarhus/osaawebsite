@@ -1,7 +1,7 @@
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Open Space Aarhus" # the name of your site, e.g. ACME Corp.
-exclude: [gems]
+exclude: [gems, node_modules]
 sass:
     load_paths:
         - _sass
