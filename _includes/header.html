@@ -1,14 +1,32 @@
-<header class="masthead">
-  <div class="inner">
-    <a href='index.html'><h2 class="masthead-brand"> <img class='osaa_logo' src='assets/images/osaa_logo_40px.png'> {{ site.title }}</h2></a>
-    <nav class="nav nav-masthead justify-content-center">
-      {% for node in site.data.navbar %}
-        {% if page.url == node.url %}
-          <a href="{{node.url}}" class="nav-link active">{{node.title}}</a>
-        {% else %}
-          <a href="{{node.url}}" class="nav-link">{{node.title}}</a>
-        {% endif %}
-      {% endfor %}
-    </nav>
+<div class="container">
+  <div class='row'>
+    <div class='col'>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
+        <a class="navbar-brand" href="#">
+          <img class='osaa_logo' src='assets/images/osaa_logo.png' style='max-width: 35px; max-height: 35px;'>
+          OPEN SPACE AARHUS
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+          <ul class="navbar-nav mlma-auto">
+
+            {% for node in site.data.navbar %}
+              {% if page.url == node.url %}
+                <li class="nav-item active">
+                  <a class="nav-link" href="{{node.url}}">{{node.title}} <span class="sr-only">(current)</span></a>
+                </li>
+              {% else %}
+                <li class="nav-item">
+                  <a class="nav-link" href="{{node.url}}">{{node.title}}</a>
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+      </nav>
+    </div>
   </div>
-</header>
+</div>
