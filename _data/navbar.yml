@@ -1,16 +1,13 @@
 #_data/navbar.yml
 - title: Home
-  url: index.html
+  url: /
 - title: Blog
-  url: blog.html
+  url: /blog.html
 - title: Om OSAA
-  url: om_osaa.html
+  url: /om_osaa.html
 - title: Galleri
-  url: galleri.html
+  url: /galleri.html
 - title: Kalender
-  url: kalender.html
+  url: /kalender.html
 - title: Links
-  url: links.html
-#Følgende dur ikke (hvis man bruger links-tag):
-# - '/index.html'
-# - '/'
+  url: /links.html

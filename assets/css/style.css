@@ -1,117 +1,17 @@
-/*
- * Globals
- */
-
-/* Links */
-/* a,
-a:focus,
-a:hover {
-  color: #fff;
-} */
-
-/* Custom default button */
-.btn-secondary,
-.btn-secondary:hover,
-.btn-secondary:focus {
-  color: #333;
-  text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: #fff;
-  border: .05rem solid #fff;
-}
-
-
-/*
- * Base structure
- */
-
 html,
 body {
-  height: 100%;
   background-color: #ccc;
 }
 
 body {
-  /* display: -ms-flexbox;
-  display: flex; */
   color: black;
-  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-  /*box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);*/
+  text-shadow: 0 .05rem .05rem rgba(0, 0, 0, .5);
 }
 
+/*TODO: Er denne nødvendig? Er det ikke mærkeligt, at en P har default center?*/
 p {
   text-align: left;
 }
-
-
-.cover-container {
-  max-width: 42em;
-}
-
-
-/*
- * Header
- */
-.masthead {
-  margin-bottom: 2rem;
-}
-
-.masthead-brand {
-  margin-bottom: 0;
-}
-
-.nav-masthead .nav-link {
-  padding: .25rem 0;
-  font-weight: 500;
-  color: rgba(0, 0, 0, 1.0);
-  font-family: Bender;
-  background-color: transparent;
-  border-bottom: .25rem solid transparent;
-}
-
-.nav-masthead .nav-link:hover,
-.nav-masthead .nav-link:focus {
-  border-bottom-color: rgba(255, 255, 255, .25);
-}
-
-.nav-masthead .nav-link + .nav-link {
-  margin-left: 1rem;
-}
-
-.nav-masthead .active {
-  color: #fff;
-  border-bottom-color: #fff;
-}
-
-@media (min-width: 48em) {
-  .masthead-brand {
-    float: left;
-  }
-  .nav-masthead {
-    float: right;
-  }
-}
-
-
-/*
- * Cover
- */
-.cover {
-  padding: 0 1.5rem;
-}
-.cover .btn-lg {
-  padding: .75rem 1.25rem;
-  font-weight: 700;
-}
-
-
-/*
- * Footer
- */
-.mastfoot {
-  color: rgba(255, 255, 255, .5);
-}
-
-
 
 .feature {
   background-color: white;
@@ -120,7 +20,6 @@ p {
 .col {
   padding: 8px;
 }
-
 
 .feature_col {
   padding-top: 8px;
@@ -169,7 +68,7 @@ p {
 }
 
 
-h1 {
+h1,h2,h3,h4,h5 {
   font-family: Bender;
 }
 
@@ -221,12 +120,6 @@ li {
   margin-bottom: 50px;
 }
 
-
-a {
-  /* text-shadow: 0 .02rem .02rem rgba(0, 0, 0, .5); */
-  color: rgb(0,0,255,1);
-}
-
 .links_table td {
   text-align: left;
   vertical-align: top;
@@ -234,13 +127,6 @@ a {
 }
 .links_table td:first-child a {
   white-space: nowrap;
-}
-
-h3, h5 {
-  text-align: left;
-  font-family: Bender;
-  font-weight: bold;
-  margin-top: 30px;
 }
 
 .gallery_img {
@@ -251,11 +137,19 @@ h3, h5 {
 
 .navbar-brand {
   font-family: Bender;
+  font-weight: regular;
 }
 
 .nav-link {
   font-family: Bender;
 }
+
+.nav-item.active {
+  /* font-weight: bold; */
+  text-decoration: underline;
+}
+
+/* TODO: find ud af, hvordan man laver mere elegant responsive font sizing */
 
 @media (min-width: 768px) {
   .feature_heading {font-size:16pt;} /*1rem = 16px*/
