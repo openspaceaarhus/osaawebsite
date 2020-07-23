@@ -38,6 +38,11 @@ p {
   transition: 0.4s;
 }
 
+.feature_col:hover {
+  text-decoration: none;
+}
+
+
 .feature_heading {
   font-family: Bender;
   font-weight: bold;
