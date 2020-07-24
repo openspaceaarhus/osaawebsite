@@ -13,15 +13,9 @@ title: Front page
 
 
 <div class='container'>
-
-
+  <div class='row'>
 {% for feature in site.data.features %}
-  {% assign loopindex = forloop.index | modulo: 3 %}
-  {% if loopindex == 1 %}
-    <div class='row'>
-  {% endif %}
-
-    <a class='col col-md-4 feature_col' href='{{feature.url}}'>
+    <a class='col col-4 col-md-3 feature_col' href='{{feature.url}}'>
       <div class=feature>
         <div class='feature_heading'>{{feature.name}}</div>
         {% if feature.resize %}
@@ -38,10 +32,8 @@ title: Front page
       </div>
     </a> <!-- end col -->
 
-  {% if loopindex == 0 %}
-    </div> <!-- end row -->
-  {% endif %}
 {% endfor %}
+  </div> <!-- end row -->
 </div>
 
 
