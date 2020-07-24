@@ -1,20 +1,20 @@
-html,
-body {
-  background-color: #ccc;
-}
 
 body {
   color: black;
-  text-shadow: 0 .05rem .05rem rgba(0, 0, 0, .5);
+  text-shadow: 1 .05rem .05rem rgba(0, 0, 0, .5);
+
+
+
+  /* TODO: lav skygge på background  */
+  background-color: #ccc;
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+
+  background-image: url("/assets/images/OSAA_4K_background.svg");
 }
 
 /*TODO: Er denne nødvendig? Er det ikke mærkeligt, at en P har default center?*/
 p {
   text-align: left;
-}
-
-.feature {
-  background-color: white;
 }
 
 .col {
@@ -27,7 +27,9 @@ p {
 }
 
 .feature {
-  border: 3px transparent solid;
+  background-color: transparent;
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .2);
+  border: 3px #aaa solid;
   border-radius: 6px 15px;
   margin: 0px;
   transition: 0.4s;

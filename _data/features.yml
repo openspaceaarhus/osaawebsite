@@ -21,10 +21,10 @@
   resize: 85%;
 - name: Kreaværksted
   url: kreavaerksted.html
-  img: symaskine.png
+  img: symaskine4.png
 - name: Cykelværksted
   url: cykelvaerksted.html
-  img: cykel2.png
+  img: cykel4.png
 - name: Fællesskab
   url: faellesskab.html
   img: barbecue3.png
