@@ -1,20 +1,15 @@
 
-html, body {
+#wrapper {
   width: 100%;
   height: 100%;
+  background-color: #ccc;
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+  background-image: url("/assets/images/OSAA_4K_background.svg");
 }
 
 body {
   color: black;
   text-shadow: 1 .05rem .05rem rgba(0, 0, 0, .5);
-
-
-
-  /* TODO: lav skygge på background  */
-  background-color: #ccc;
-  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
-
-  background-image: url("/assets/images/OSAA_4K_background.svg");
 }
 
 /*TODO: Er denne nødvendig? Er det ikke mærkeligt, at en P har default center?*/
