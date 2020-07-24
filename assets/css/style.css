@@ -79,6 +79,20 @@ h1,h2,h3,h4,h5 {
   font-family: Bender;
 }
 
+h3 {
+  border-bottom: black solid 2px;
+  font-size: 16pt;
+  font-weight: bold;
+  text-align: left;
+}
+
+h5 {
+  border-bottom: black dashed 1px;
+  font-size: 14pt;
+  font-weight: regular;
+  text-align: left;
+}
+
 @font-face {
     font-family: Bender;
     src: url("../fonts/Bender/Jovanny Lemonad - Bender.otf") format("opentype");
