@@ -117,8 +117,8 @@ li {
 
 .catchphrase {
   font-size: 25pt;
-  margin-top: 20px;
-  margin-bottom: 40px;
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 
 .bliv_medlem {
@@ -159,5 +159,5 @@ li {
 /* TODO: find ud af, hvordan man laver mere elegant responsive font sizing */
 
 @media (min-width: 768px) {
-  .feature_heading {font-size:16pt;} /*1rem = 16px*/
+  .feature_heading {font-size:12pt;} /*1rem = 16px*/
 }
