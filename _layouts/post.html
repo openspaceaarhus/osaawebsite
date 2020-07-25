@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.0.1">
+    <title> {{ page.title }} - {{ site.title }}</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link href="{{ "/assets/css/bootstrap_custom.css" | link}}" rel="stylesheet">
+    <link href="{{ "/assets/css/style.css" | link}}" rel="stylesheet">
+  </head>
+  <body class="text-center">
+    <div id='wrapper'>
+
+    {% include header.html %}
+
+      <div class="container">
+        <div class="row">
+          <div class="col col-md-12">
+            <h1> {{page.title}} </h1>
+            <div style='font-family: Bender'>
+              Blog -
+              {% assign m = page.date | date: "%-m" %}
+              {{ page.date | date: "%-d." }}
+              {% case m %}
+                {% when '1' %}januar
+                {% when '2' %}februar
+                {% when '3' %}marts
+                {% when '4' %}april
+                {% when '5' %}maj
+                {% when '6' %}juni
+                {% when '7' %}juli
+                {% when '8' %}august
+                {% when '9' %}september
+                {% when '10' %}oktober
+                {% when '11' %}november
+                {% when '12' %}december
+              {% endcase %}
+              {{ page.date | date: "%Y" }}
+            </div>
+
+          </div>
+        </div>
+        <div class='row'>
+          <div class="col col-md-12">
+            {{ content }}
+          </div>
+        </div>
+      </div>
+
+
+
+    {% include footer.html %}
+    </div>
+
+</div>
+</body>
+</html>

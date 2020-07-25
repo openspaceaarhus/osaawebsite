@@ -1,0 +1,42 @@
+---
+layout: default
+title: My Blog
+---
+
+<!-- This loops through the paginated posts -->
+{% for post in paginator.posts %}
+<div class="container">
+  <div class="row">
+    <div class="col col-md-12">
+      <h1> {{post.title}} </h1>
+      <div style='font-family: Bender'>
+        Blog -
+        {% assign m = post.date | date: "%-m" %}
+        {{ post.date | date: "%-d." }}
+        {% case m %}
+          {% when '1' %}januar
+          {% when '2' %}februar
+          {% when '3' %}marts
+          {% when '4' %}april
+          {% when '5' %}maj
+          {% when '6' %}juni
+          {% when '7' %}juli
+          {% when '8' %}august
+          {% when '9' %}september
+          {% when '10' %}oktober
+          {% when '11' %}november
+          {% when '12' %}december
+        {% endcase %}
+        {{ post.date | date: "%Y" }}
+        - <a href='{{post.url}}'>Permalink</a>
+      </div>
+
+    </div>
+  </div>
+  <div class='row'>
+    <div class="col col-md-12">
+      {{ post.content }}
+    </div>
+  </div>
+</div>
+{% endfor %}
