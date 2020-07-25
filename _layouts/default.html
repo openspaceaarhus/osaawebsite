@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Jekyll v4.0.1">
-    <title> {{ page.title }} - {{ site.title }}</title>
+    <title> {% if page.title %} {{ page.title }} - {% endif %} {{ site.title }} </title>
     <!--
       TODO: Sørge for, at bootstrap og jquery også ligger lokalt i assets,
       fordi:
@@ -28,20 +28,24 @@
 
     {% include header.html %}
 
+    {% if page.title %}
+      <div class="container">
+        <div class="row">
+          <div class="col col-md-12">
+            <h1> {{page.title}} </h1>
+          </div>
+        </div>
+      </div>
+    {% endif %}
       <div class="container">
         <div class="row">
           <div class="col col-md-12">
 
             {{ content }}
 
-
-
           </div>
         </div>
       </div>
-
-
-
     {% include footer.html %}
     </div>
 
