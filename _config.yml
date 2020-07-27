@@ -21,6 +21,7 @@ plugins:
 sass:
     load_paths:
         - _sass
-        - node_modules
+        # - node_modules
+        - 3rd_party_code
 paginate: 10
 paginate_path: "/blog/page:num/"
