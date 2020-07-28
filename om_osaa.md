@@ -40,4 +40,4 @@ Katrinebjergvej 105 <br>
 
 ### Bestyrelsen
 
-Klik [her]({{ /bestyrelse.html | relative_url }}) for kontaktinformationer m.m. til bestyrelsesmedlemmer.
+Klik [her]({{ "/bestyrelse.html" | relative_url }}) for kontaktinformationer m.m. til bestyrelsesmedlemmer.
