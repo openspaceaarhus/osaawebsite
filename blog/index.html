@@ -28,7 +28,7 @@ title: Blog
           {% when '12' %}december
         {% endcase %}
         {{ post.date | date: "%Y" }}
-        - <a href='{{post.url}}'>Permalink</a>
+        - <a href='{{ post.url | relative_url }}'>Permalink</a>
       </div>
 
     </div>
