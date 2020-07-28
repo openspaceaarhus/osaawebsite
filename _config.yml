@@ -25,3 +25,5 @@ sass:
         - 3rd_party_code
 paginate: 10
 paginate_path: "/blog/page:num/"
+
+theme: jekyll-theme-slate
