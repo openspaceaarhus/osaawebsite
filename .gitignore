@@ -2,5 +2,5 @@
 .bundle
 .jekyll-cache
 _site
-vendor
+/vendor
 node_modules
