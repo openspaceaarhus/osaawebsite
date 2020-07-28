@@ -30,5 +30,3 @@ sass:
         - node_modules
 paginate: 10
 paginate_path: "/blog/page:num/"
-
-theme: jekyll-theme-minimal
