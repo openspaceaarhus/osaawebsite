@@ -26,4 +26,4 @@ sass:
 paginate: 10
 paginate_path: "/blog/page:num/"
 
-theme: jekyll-theme-slate
+theme: jekyll-theme-minimal
