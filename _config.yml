@@ -23,6 +23,10 @@ sass:
         - _sass
         # - node_modules
         - 3rd_party_code
+        - 3rd_party_code/bootstrap
+        - 3rd_party_code/bootstrap/
+        - 3rd_party_code/bootstrap/scss
+        - 3rd_party_code/bootstrap/scss/vendor
 paginate: 10
 paginate_path: "/blog/page:num/"
 
