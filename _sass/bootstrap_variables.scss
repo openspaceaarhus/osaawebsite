@@ -3,13 +3,9 @@ $link-decoration:                         none !default;
 // $link-hover-color:                        darken($link-color, 15%) !default;
 $link-hover-decoration:                   underline !default;
 
-$grid-breakpoints: (
-  sm: 0px,
-  lg: 768px
-);
 $container-max-widths: (
   sm: 540px,
-  lg: 720px
+  md: 720px
 );
 
 $navbar-brand-font-size:            1.25rem;
