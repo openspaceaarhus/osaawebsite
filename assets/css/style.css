@@ -5,6 +5,7 @@ html,body {
   width: 100%;
 }
 
+/* div#wrapper is there only to make background watermark with OSAA logo */
 #wrapper {
   min-width: 100%;
   min-height: 100%;
@@ -18,14 +19,13 @@ body {
   text-shadow: 1 .05rem .05rem rgba(0, 0, 0, .5);
 }
 
-/*TODO: Er denne nødvendig? Er det ikke mærkeligt, at en P har default center?*/
-p {
-  text-align: left;
-}
-
 .col {
   padding: 8px;
 }
+
+/* The 'feature' is any of the 'selling point rectangle things' 
+   shown on the frontpage, e.g. Lasercutter, Fællesskab
+*/
 
 .feature_col {
   padding-top: 8px;
@@ -168,9 +168,6 @@ li {
   vertical-align: top;
   padding: 12px;
 }
-.links_table td:first-child a {
-  /* white-space: nowrap; */
-}
 
 .gallery_img {
   width: 100%;
@@ -192,8 +189,7 @@ li {
   text-decoration: underline;
 }
 
-/* TODO: find ud af, hvordan man laver mere elegant responsive font sizing */
-
+/* Responsive font sizing */
 @media (min-width: 768px) {
   .feature_heading {font-size:12pt;} /*1rem = 16px*/
 }
