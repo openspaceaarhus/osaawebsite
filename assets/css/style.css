@@ -5,6 +5,10 @@ html,body {
   width: 100%;
 }
 
+p {
+    text-align: left;
+}
+
 /* div#wrapper is there only to make background watermark with OSAA logo */
 #wrapper {
   min-width: 100%;
