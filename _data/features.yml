@@ -9,22 +9,22 @@
   img: cnc.png
 - name: Metalværksted
   url: metalvaerksted.html
-  img: welder2.png
+  img: welder.png
   resize: 85%;
 - name: Træværksted
   url: traevaerksted.html
-  img: table_saw2.png
+  img: table_saw.png
   resize: 85%;
 - name: Elektronik
   url: elektronikvaerksted.html
-  img: oscilloscope2.png
+  img: oscilloscope.png
   resize: 85%;
 - name: Kreaværksted
   url: kreavaerksted.html
-  img: symaskine4.png
+  img: sowing_machine.png
 - name: Cykelværksted
   url: cykelvaerksted.html
-  img: cykel4.png
+  img: bicycle.png
 - name: Fællesskab
   url: faellesskab.html
-  img: barbecue3.png
+  img: barbecue.png
