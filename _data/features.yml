@@ -22,9 +22,9 @@
 - name: Kreaværksted
   url: kreavaerksted.html
   img: sowing_machine.png
-- name: Cykelværksted
-  url: cykelvaerksted.html
-  img: bicycle.png
+# - name: Cykelværksted
+#   url: cykelvaerksted.html
+#   img: bicycle.png
 - name: Fællesskab
   url: faellesskab.html
   img: barbecue.png
