@@ -1,8 +1,8 @@
 #_data/navbar.yml
 - title: Home
   url: /
-- title: Blog
-  url: /blog/
+# - title: Blog
+#   url: /blog/
 - title: Om OSAA
   url: /om_osaa.html
 - title: Galleri
