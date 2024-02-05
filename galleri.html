@@ -3,7 +3,7 @@ layout: default
 title: Galleri
 ---
 <div class='container'>
-{% for i in (1..5) %}
+{% for i in (2..5) %}
   {% assign loopindex = forloop.index | modulo: 2 %}
   {% if loopindex == 1 %}
     <div class='row'>
