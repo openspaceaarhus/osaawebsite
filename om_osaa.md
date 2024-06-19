@@ -43,4 +43,4 @@ Facebook: [https://www.facebook.com/openspaceaarhus/](https://www.facebook.com/o
 
 ### Find spacet
 
-Lokalerne ligger i kælderen på Kulturhus Bunkeren (den tidligere journalisthøjskole), og der er desværre ikke nogen dørtelefon. Men ved bygningens to hovedindgange hænger en seddel med instruktioner til hvordan du med din smart phone kan aktivere vores ringeklokke. Du kan også ringe til telefonen i vores lokale på: ?? XX ** !!.
+Lokalerne ligger i kælderen på Kulturhus Bunkeren (den tidligere journalisthøjskole), og der er desværre ikke nogen dørtelefon. Men ved bygningens to hovedindgange hænger en seddel med instruktioner til hvordan du med din smart phone kan aktivere vores ringeklokke. Du kan også ringe til telefonen i vores lokale på tlf 91 85 01 78.
