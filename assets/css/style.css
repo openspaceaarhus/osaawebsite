@@ -27,7 +27,7 @@ body {
   padding: 8px;
 }
 
-/* The 'feature' is any of the 'selling point rectangle things' 
+/* The 'feature' is any of the 'selling point rectangle things'
    shown on the frontpage, e.g. Lasercutter, Fællesskab
 */
 
@@ -97,6 +97,7 @@ h1 {
   font-size: 20pt;
   font-weight: bold;
   text-align: center;
+  width: fit-content;
 }
 
 h2 {
@@ -110,6 +111,7 @@ h3 {
   font-size: 16pt;
   font-weight: bold;
   text-align: left;
+  width: fit-content;
 }
 
 h5 {
@@ -117,6 +119,7 @@ h5 {
   font-size: 14pt;
   font-weight: regular;
   text-align: left;
+  width: fit-content;
 }
 
 @font-face {
@@ -196,4 +199,9 @@ li {
 /* Responsive font sizing */
 @media (min-width: 768px) {
   .feature_heading {font-size:12pt;} /*1rem = 16px*/
+  h2, h3, h4, h5 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+
 }
