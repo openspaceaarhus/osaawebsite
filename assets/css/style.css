@@ -43,6 +43,7 @@ body {
   border-radius: 6px 15px;
   margin: 0px;
   transition: 0.4s;
+  text-align: center;
 }
 
 .feature:hover {
@@ -161,6 +162,7 @@ li {
   font-size: 25pt;
   margin-top: 0px;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .bliv_medlem {
