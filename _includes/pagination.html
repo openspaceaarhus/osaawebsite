@@ -1,0 +1,22 @@
+<!-- Pagination links -->
+<div class="container">
+    <div class="row">
+        <div class="col col-md-12">
+            <div class="pagination">
+                {% if paginator.previous_page %}
+                <span class="previous">
+                    <a href="{{ paginator.previous_page_path }}">Forrige</a>
+                </span>
+                {% endif %}
+                <span class="page_number">
+                    Side: {{ paginator.page }} af {{ paginator.total_pages }}
+                </span>
+                {% if paginator.next_page %}
+                <span class="next">
+                    <a href="{{ paginator.next_page_path }}">Næste</a>
+                </span>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>

@@ -43,3 +43,25 @@ layout: default
     </div>
   </div>
 </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col col-md-12 news">
+      <h1>Nyheder</h1>
+    </div>
+  </div>
+</div>
+
+{% for post in site.posts limit:3 %}
+<article>
+  {% include article.html %}
+</article>
+{% endfor %}
+
+<div class='container'>
+  <div class='row'>
+    <div class='col col-md-12 news'>
+      <a href="/blog/">Se flere nyheder</a>
+    </div>
+  </div>
+</div>
