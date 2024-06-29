@@ -5,25 +5,10 @@ title: Om OSAA
 
 OSAA er en forening med godt 40 medlemmer og 130 m2 lokaler (arbejdsborde og værksteder), placeret i Kulturhus Bunkeren, i Aarhus N.
 
-### Medlemskab
 
-##### Gratis medlem
+##### Oprettelse af medlemsskab
 
-Vis din opbakning til OSAA.
-
-##### Betalende medlem
-
-235 kr/md (studerende halv pris).
-
-+ Adgang døgnet rundt
-+ Adgang til at bruge alle maskiner, værktøj og andet udstyr
-+ Medbring venner
-+ Stemmeret ved generalforsamling
-+ Frit forbrug af komponenter og dimsedutter i vores veludstyrede lager
-
-##### Oprettelse
-
-Opret dig som medlem [her](hal.osaa.dk).
+<a href="/osaawebsite/blivMedlem.html">Bliv medlem</a>
 
 ### Kom på besøg:
 + Der er åbent for alle hver tirsdag fra kl 16.00.
