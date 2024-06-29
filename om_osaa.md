@@ -3,41 +3,29 @@ layout: default
 title: Om OSAA
 ---
 
-OSAA er en forening med godt 50 medlemmer og 200 m2 lokaler (opholdsrum og værksteder) i Katrinebjerg i Aarhus.
+OSAA er en forening med godt 40 medlemmer og 130 m2 lokaler (arbejdsborde og værksteder), placeret i Kulturhus Bunkeren, i Aarhus N.
 
-### Medlemskab
 
-##### Gratis medlem
+##### Oprettelse af medlemsskab
 
-Vis din opbakning til OSAA.
-
-##### Betalende medlem
-
-200 kr/md (studerende halv pris).
-
-+ Adgang døgnet rundt
-+ Adgang til at bruge alle maskiner, værktøj og andet udstyr </li>
-+ Medbring venner
-+ Stemmeret ved generalforsamling
-+ Aflåseligt skab (så længe lager haves)
-+ Frit forbrug af komponenter og dimsedutter i vores veludstyrede lager
-
-##### Oprettelse
-
-Opret dig som medlem [her](hal.osaa.dk).
+<a href="/osaawebsite/blivMedlem.html">Bliv medlem</a>
 
 ### Kom på besøg:
-+ Ring til Mysli (42 42 42 42) eller Thomas (61 66 86 60), og hør nærmere.
-+ Der er åbent for alle hver tirsdag fra kl 15.30.
++ Der er åbent for alle hver tirsdag fra kl 16.00.
++ Det er ikke påkrævet, men det kan være en god idé at kontakte os inden du dukker op, fx ved at skrive på vores Discord-gruppe eller ved at ringe til Thomas (61 66 86 60). Hvis tirsdag passer dårligt, så finder vi en anden dag.
 + Tjek vores kalender for planlagte arrangementer.
 
 ### Kontaktoplysninger
 
 Open Space Aarhus <br>
-Katrinebjergvej 105 <br>
+Oluf Palmes Allé 11 <br>
 8200 Aarhus N <br>
 <info@osaa.dk> <br>
 
-### Bestyrelsen
+Discord: [https://discord.gg/hkv2zPS](https://discord.gg/hkv2zPS)
 
-Klik [her]({{ "/bestyrelse.html" | relative_url }}) for kontaktinformationer m.m. til bestyrelsesmedlemmer.
+Facebook: [https://www.facebook.com/openspaceaarhus/](https://www.facebook.com/openspaceaarhus/)
+
+### Find spacet
+
+Lokalerne ligger i kælderen på Kulturhus Bunkeren (den tidligere journalisthøjskole), og der er desværre ikke nogen dørtelefon. Men ved bygningens to hovedindgange hænger en seddel med instruktioner til hvordan du med din smart phone kan aktivere vores ringeklokke. Du kan også ringe til telefonen i vores lokale på tlf 91 85 01 78.

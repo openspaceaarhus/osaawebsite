@@ -5,6 +5,11 @@ html,body {
   width: 100%;
 }
 
+p {
+    text-align: left;
+}
+
+/* div#wrapper is there only to make background watermark with OSAA logo */
 #wrapper {
   min-width: 100%;
   min-height: 100%;
@@ -18,14 +23,13 @@ body {
   text-shadow: 1 .05rem .05rem rgba(0, 0, 0, .5);
 }
 
-/*TODO: Er denne nødvendig? Er det ikke mærkeligt, at en P har default center?*/
-p {
-  text-align: left;
-}
-
 .col {
   padding: 8px;
 }
+
+/* The 'feature' is any of the 'selling point rectangle things'
+   shown on the frontpage, e.g. Lasercutter, Fællesskab
+*/
 
 .feature_col {
   padding-top: 8px;
@@ -39,6 +43,7 @@ p {
   border-radius: 6px 15px;
   margin: 0px;
   transition: 0.4s;
+  text-align: center;
 }
 
 .feature:hover {
@@ -106,6 +111,7 @@ h3 {
   font-size: 16pt;
   font-weight: bold;
   text-align: left;
+  width: fit-content;
 }
 
 h5 {
@@ -113,6 +119,7 @@ h5 {
   font-size: 14pt;
   font-weight: regular;
   text-align: left;
+  width: fit-content;
 }
 
 @font-face {
@@ -155,6 +162,7 @@ li {
   font-size: 25pt;
   margin-top: 0px;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .bliv_medlem {
@@ -167,9 +175,6 @@ li {
   text-align: left;
   vertical-align: top;
   padding: 12px;
-}
-.links_table td:first-child a {
-  /* white-space: nowrap; */
 }
 
 .gallery_img {
@@ -192,8 +197,12 @@ li {
   text-decoration: underline;
 }
 
-/* TODO: find ud af, hvordan man laver mere elegant responsive font sizing */
-
+/* Responsive font sizing */
 @media (min-width: 768px) {
   .feature_heading {font-size:12pt;} /*1rem = 16px*/
+  h2, h3, h4, h5 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+
 }

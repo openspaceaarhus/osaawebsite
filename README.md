@@ -1,45 +1,25 @@
----
-layout: default
----
+# Readme
 
-<div class='container'>
-  <div class='row'>
-    <div class='col col-md-12 catchphrase'>
-      Er du kreativ, men mangler værkstedet?
-    </div>
-  </div>
-</div>
+### Deploying locally
 
+#### Install Ruby with bundler
 
-<div class='container'>
-  <div class='row'>
-{% for feature in site.data.features %}
-    <a class='col col-4 col-md-3 feature_col' href='{{feature.url}}'>
-      <div class=feature>
-        <div class='feature_heading'>{{feature.name}}</div>
-        {% if feature.resize %}
-          <div class='feature_illustration'>
-            <img class='feature_img' src='assets/images/features/{{feature.img}}' style='max-width: {{feature.resize}}; max-height: {{feature.resize}};'>
-          </div>
-        {% else  %}
-          <div class='feature_illustration'>
-            <img class='feature_img' src='assets/images/features/{{feature.img}}'>
-          </div>
-        {% endif  %}
-        <div class='feature_description'>
-        </div>
-      </div>
-    </a> <!-- end col -->
+Described here: https://jekyllrb.com/docs/installation/.
 
-{% endfor %}
-  </div> <!-- end row -->
-</div>
+On Debian/Ubuntu the steps are:
 
+    sudo apt-get install ruby-full build-essential zlib1g-dev
+    echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
+    echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
+    echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
+    source ~/.bashrc
+    gem install bundler # will install in $HOME/gems
 
-<div class='container'>
-  <div class='row'>
-    <div class='col col-md-12 bliv_medlem'>
-      Bliv medlem for 200 kr/md (studerende 100kr/md) og få adgang døgnet rundt, eller deltag gratis i vores åbne arrangementer.
-    </div>
-  </div>
-</div>
+This has been tested succesfully in early 2024 on Ubuntu 22.04 LTS with APT installing ruby 3.0.2p107 (2021-07-07).
+
+#### Clone, install  and serve
+
+    git clone git@github.com:velle/osaawebsite.git
+    cd osaawebsite
+    bundle install
+    bundle exec jekyll serve
