@@ -8,7 +8,7 @@ OSAA er en forening med godt 40 medlemmer og 130 m2 lokaler (arbejdsborde og væ
 
 ##### Oprettelse af medlemsskab
 
-<a href="/osaawebsite/blivMedlem.html">Bliv medlem</a>
+<a href="blivMedlem.html">Bliv medlem</a>
 
 ### Kom på besøg:
 + Der er åbent for alle hver tirsdag fra kl 16.00.
