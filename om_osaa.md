@@ -18,7 +18,7 @@ OSAA er en forening med godt 40 medlemmer og 130 m2 lokaler (arbejdsborde og væ
 ### Kontaktoplysninger
 
 Open Space Aarhus <br>
-Oluf Palmes Allé 11 <br>
+Olof Palmes Allé 11 <br>
 8200 Aarhus N <br>
 <info@osaa.dk> <br>
 
