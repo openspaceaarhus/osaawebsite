@@ -1,12 +1,10 @@
 #_data/navbar.yml
 - title: Home
   url: /
-# - title: Blog
-#   url: /blog/
 - title: Om OSAA
   url: /om_osaa.html
 - title: Nyheder
-  url: /blog/
+  url: /news/
 - title: Galleri
   url: /galleri.html
 - title: Kalender

@@ -15,7 +15,7 @@
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/" # the subpath of your site, e.g. /blog
 title: "Open Space Aarhus" # the name of your site, e.g. ACME Corp.
-exclude: [gems, node_modules, vendor]
+exclude: [gems, node_modules, vendor, .idea]
 plugins:
   - jekyll-paginate
 sass:
@@ -24,5 +24,5 @@ sass:
         # - node_modules
         - 3rd_party_code
 paginate: 10
-paginate_path: "/blog/page:num/"
+paginate_path: "/news/page:num/"
 theme: null
