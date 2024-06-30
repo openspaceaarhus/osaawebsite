@@ -4,7 +4,7 @@
             <article>
                 <h2> {{post.title}} </h2>
                 <div style='font-family: Bender'>
-                    Blog -
+                    <a href='{{ post.url | relative_url }}'>
                     {% assign m = post.date | date: "%-m" %}
                     {{ post.date | date: "%-d." }}
                     {% case m %}
@@ -22,7 +22,8 @@
                     {% when '12' %}december
                     {% endcase %}
                     {{ post.date | date: "%Y" }}
-                    - <a href='{{ post.url | relative_url }}'>Permalink</a>
+                    </a>
+                    {% if post.author %}- {{ post.author }}{% endif %}
                 </div>
             </article>
         </div>
