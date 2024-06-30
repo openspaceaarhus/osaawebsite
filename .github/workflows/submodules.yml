@@ -15,10 +15,18 @@ jobs:
         shell: bash
 
     steps:
+    - uses: actions/create-github-app-token@v1
+      id: app-token
+      with:
+        # required
+        app-id: ${{ secrets.OSAAWEBSITEBOT_APPID }}
+        private-key: ${{ secrets.OSAAWEBSITEBOT_PRIVATEKEY }}
+
     # Checkout the repository to the GitHub Actions runner
     - name: Checkout
       uses: actions/checkout@v2
       with:
+        token: ${{ steps.app-token.outputs.token }}
         submodules: true
 
     # Update references
