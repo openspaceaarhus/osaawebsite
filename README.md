@@ -23,3 +23,34 @@ This has been tested succesfully in early 2024 on Ubuntu 22.04 LTS with APT inst
     cd osaawebsite
     bundle install
     bundle exec jekyll serve
+
+#### Docker test server on linux
+
+    docker run \
+    --entrypoint sh -c "chown -R jekyll /usr/gem/ && jekyll serve" \
+    -p 4000:4000 \
+    -v $PWD:/srv/jekyll \
+    --env site_name=osaawebsite \
+    --name osaawebsite \
+    --pull missing -i false \
+    jekyll/jekyll 
+
+Connect to http://localhost:4000/ to view the site.
+The jekyll server will automatically rebuild the site, when md / html files are updated.
+If the config in _config.yml is changed, the container need to be restarted.
+
+#### Docker setup on windows
+
+    docker run \
+    --entrypoint sh -c "chown -R jekyll /usr/gem/ && jekyll serve" \
+    -p 4000:4000 \
+    -v %CD%:/srv/jekyll \
+    --env site_name=osaawebsite \
+    --env MSYS_NO_PATCHCONV=1 \
+    --name osaawebsite \
+    --pull missing -i false \
+    jekyll/jekyll 
+
+Connect to http://localhost:4000/ to view the site.
+The jekyll server will automatically rebuild the site, when md / html files are updated.
+If the config in _config.yml is changed, the container need to be restarted.
