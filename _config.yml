@@ -12,12 +12,13 @@
 #   syntax_highlighter: rouge
 
 
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://osaa.dk" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/" # the subpath of your site, e.g. /blog
 title: "Open Space Aarhus" # the name of your site, e.g. ACME Corp.
 exclude: [gems, node_modules, vendor, .idea]
 plugins:
   - jekyll-paginate
+  - jekull-sitemap
 sass:
     load_paths:
         - _sass
