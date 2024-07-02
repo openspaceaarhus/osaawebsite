@@ -2,9 +2,19 @@
 layout: default
 title: 404
 permalink: /404.html
-redirect: true
 ---
 
+<script type="text/javascript">
+    // Redirect to the homepage after 5 seconds
+    setTimeout(function() {
+      window.location.href = 'https://osaa.dk';
+    }, 5000);
+  </script>
+
 <p>
-    Du er endt på en side der ikke eksistere, Vi sender dig lige tilbage til forsiden. Hvis dette ikke sker, så kan du selv gå tilbage here [home page]({{ site.baseurl | prepend: site.url }}).
+    Du er endt på en side der ikke eksistere, om 5 sekunder sender vi dig lige tilbage til forsiden. Hvis dette ikke sker,
+    så kan du selv gå tilbage til vores forside her <a href='https://osaa.dk'>Forside</a>.
+
 </p>
+
+<img src='assets/images/content/404.png' style='width: 90vw; margin-bottom: 20px; margin-top: 20px;'>
