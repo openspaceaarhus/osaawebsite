@@ -51,18 +51,6 @@ layout: default
       <div id="statusBox" style="display: none; background-color: green; color: white; padding: 10px; margin-bottom: 10px;">
         Lige nu er spacet åbent.
       </div>
-      <script>
-        document.addEventListener("DOMContentLoaded", function () {
-          fetch("https://spaceapi.osaa.dk/status/json")
-          .then(response => response.json())
-          .then(data => {
-            if (data.state && data.state.open === true) {
-              document.getElementById("statusBox").style.display = "block";
-            }
-          })
-          .catch(error => console.error("Error fetching space status:", error));
-        });
-      </script>
     </div>
   </div>
 </div>
